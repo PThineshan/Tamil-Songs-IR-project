@@ -174,11 +174,7 @@ PUT /songs_db/
                "filter": {
                    "custom_stopper": {
                        "type": "stop",
-                       "stopwords_path": "analysis/tamil_stopwords.txt"
-                   },
-                   "custom_stems": {
-                       "type": "stemmer_override",
-                       "rules_path": "analysis/tamil_stemming.txt"
+                       "stopwords_path": "stopwords.txt"
                    }
                }
            }
